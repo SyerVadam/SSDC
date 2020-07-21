@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="340.0" prefWidth="398.0" style="-fx-background-color: #dafcff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.InicioDocenteController">
+   <children>
+      <Label fx:id="lbl_nombredocente" layoutX="32.0" layoutY="24.0" prefHeight="18.0" prefWidth="294.0" text="Control docente del curso">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="32.0" layoutY="97.0" text="Seleccione una acción:" />
+      <Button disable="true" layoutX="32.0" layoutY="125.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="222.0" text="Registrar plan de curso" />
+      <Button layoutX="293.0" layoutY="250.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="66.0" text="Salir">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button disable="true" layoutX="32.0" layoutY="170.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="222.0" text="Registrar avance de curso" />
+      <Button disable="true" layoutX="32.0" layoutY="215.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="222.0" text="Solicitar actualización de plan" />
+      <Button layoutX="32.0" layoutY="257.0" mnemonicParsing="false" prefHeight="1.0" prefWidth="222.0" text="Consultar cursos" />
+   </children>
+</AnchorPane>
